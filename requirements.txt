@@ -1,4 +1,5 @@
 pyrogram>=2.0.30
+coroutine
 asyncio
 tgcrypto
 pymongo[srv]==3.12.3
