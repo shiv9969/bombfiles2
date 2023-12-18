@@ -63,7 +63,7 @@ if len(OPENAI_API) == 0:
     exit()
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Bob_files1:DdPXWvqfJSnKbNy6@cluster0.1sddrwg.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://bobitachi:bobitachi@cluster0.ibawrzh.mongodb.net/?retryWrites=true&w=majority")
 if len(DATABASE_URL) == 0:
     logging.error('DATABASE_URL is missing, exiting now')
     exit()
